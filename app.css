@@ -1,0 +1,30 @@
+body {
+    background-color: #e6e6e6;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.subContainer {
+    width: 50%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.btn-close {
+    font-size: 8px;
+    float: right;
+    color: #eeeeeead;
+}
