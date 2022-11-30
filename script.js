@@ -24,6 +24,7 @@ inputBar.addEventListener("keypress", (e) => {
         inputCheck = document.querySelectorAll(".inputCheck");
         label = document.querySelectorAll("label");
         closeButton = document.querySelectorAll("#close");
+        inputBar.value = "";
     }
 })
 
