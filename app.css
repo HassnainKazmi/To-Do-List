@@ -24,15 +24,25 @@ ul {
     border-radius: 10px;
 }
 
+.btn {
+    margin: 0px 1px;
+    padding: 6px 9px;
+}
+
+.btn-success {
+    width: 100px;
+}
+
 .btn-close {
     font-size: 8px;
     float: right;
     color: #eeeeeead;
+    margin-top: 6px;
 }
 
 @media(max-width: 600px) {
     .subContainer {
-        width: 80%;
+        width: 70%;
     }
 
     .completed {
@@ -41,7 +51,7 @@ ul {
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 392px) {
     h1 {
         text-align: center;
     }
@@ -51,7 +61,30 @@ ul {
     }
 
     .btn {
-        display: block;
-        margin: 5px 0px;
+        display: inline-block;
+        margin: 5px 5px;
+        width: 100px;
+    }
+
+    .btn-success {
+        width: 120px;
+    }
+
+    .buttonsDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .btn-close {
+        margin-top: 7px;
+    }
+}
+
+@media(max-width:350px) {
+    .btn {
+        width: 130px;
     }
 }
