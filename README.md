@@ -1,4 +1,5 @@
 # To-Do-List
-Developed a responsive and user-friendly to-do list application with features that allow users to add, delete, and categorize their tasks as ongoing or completed. The application's design enables users to view all their tasks simultaneously, and it can be utilized across multiple platforms.
+Developed a responsive and user-friendly to-do list  that enable users to efficiently manage their tasks by adding, deleting, and categorizing them as either ongoing or completed. The design allows for simultaneous viewing of all tasks, and the application is fully responsive, making it accessible on multiple platforms.
 
 Technologies Used: JavaScript, Bootstrap5, CSS3, & HTML5
+
